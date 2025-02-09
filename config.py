@@ -2,8 +2,8 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-replicate_api_key = "r8_7ZMqX4RA3ToHdWowah2x2zwbgCO7BSC4X1YxT"
-#replicate_api_key = os.getenv("REPLICATE_API_KEY")
+
+replicate_api_key = os.getenv("REPLICATE_API_KEY")
 print(replicate_api_key)
 
 class Config:
